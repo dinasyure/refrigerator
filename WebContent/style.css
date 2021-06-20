@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+body{background:gray;}
+#divPage{width:980px; background:white; box-shadow:10px 10px 10px blak; margin:auto;}
+#divTop{padding:30px 0px 0px 0px; text-align:center;}
+#divCenter{border:1px solid green; margin:0px 10px 0px 10px; padding-bottom:20px;}
+#divMenu{overflow:hidden; background:#EAEAEA; margin:0px 0px 20px 0px; padding:10px; border-bottom:1px solid green;}
+#divMenu .menuItem{width:80px;float:left;}
+#divContent{width:980px;}
+#divBottom{padding:0px 0px 10px 0px; text-align:center;}
+#divHeader{width:980px; text-align:center;}
+#divCondition{width:800px;overflow:hidden; margin:auto; margin-bottom:5px;padding:5px;}
+#divCondition button{margin:2px;}
+#divSearch{ float:left; }
+#divSort{ float:right; }
+#pagination{width:980px; text-align:center;}
+#tbl{margin:auto;}
+#tbl .box{text-align:center;}
+#tbl .box:hover{font-weight:bold;font-size:16px;color:blue;}
+.row .pcode, .row .pname, .row .hiredate, .row .dept, .row .ptitle{text-align:center;}
+.row .scode, .row .sname, .row .year, .row .birthday, .row .edate{text-align:center;}
+.row .lcode, .row .room, .row .hours, .row .capacity, .row .persons{text-align:center;}
+.row .salary, .row .grade{text-align:right;}
+a{text-decoration:none; color:green;font-size:13px;}
+a:hover{font-weight:bold;}
+select, input, button {height:23px; font-size:12px;}
+input[type="radio"]{height:12px;}
+table {border-collapse:collapse; margin-bottom:10px; margin:auto;}
+table .title{background:#EAEAEA; text-align:center;font-weight:bold;}
+table .row:hover{background:gray; color:white; cursor:pointer;}
+td{border:1px solid black; height:30px; font-size:12px;padding:0px 5px 0px 5px; text-align:center;}
+td button{text-align:center;}
+input[type="radio"]{height:12px;}
+input[name="yy"], input[name="mm"], input[name="dd"], #yy,#mm,#dd {text-align:center;}
+input[name="salary"], input[name="capacity"], input[name="persons"], input[name="hours"]{text-align:right;}
+h1,h2,h3,h4{text-align:center;}
+#darken-background {
+    position:absolute;
+    top:0px; 
+    left:0px;
+    right:0px;
+    height:100%;
+    display:none;
+    background:rgba(0, 0, 0, 0.5);
+    z-index:10000;
+    overflow-y:scroll;
+ }
+ #lightbox {
+    width:900px;
+    margin:20px auto;
+    padding:15px;
+    border: 1px solid #333333;
+    border-radius:5px;
+    background:white;
+    box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+    text-align:left;
+ }
